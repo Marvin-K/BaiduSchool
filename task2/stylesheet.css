@@ -1,0 +1,62 @@
+body,html{
+	margin: 0;
+	padding: 0px;
+	background-color: #eee;
+}
+.top {
+	width: auto;
+	height: 70px;
+	background-color: #333;
+}
+.logo {
+	float: left;
+	height: 55px;
+	width: 150px;
+	margin-left: 15px;
+}
+li.nav-li {
+	float: left;
+	font-size: 0.5em;
+	margin: 10px 0 0 30px;
+
+}
+li.nav-li a:link{
+	color: #fff;
+	text-decoration:none; 
+}
+li.nav-li a:hover{
+	color: #aaa;
+}
+.arti-1,.arti-2,.arti-3,.sidebar {
+	font-family: "Microsoft YaHei";
+	margin: 20px;
+	padding: 30px 20px 30px 20px;
+	background-color: #fff;
+}
+
+.navigation {
+	float: right;
+	height: 20px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin-right: 10px;
+}
+.author {
+	font-family: "Times";
+	font-size: smaller;
+	color: #aaa;
+}
+h3 {
+	font-size: medium;
+	color: #bbb;
+}
+ul.ul-1 {
+	list-style-type: none;
+}
+
+ol.pic-2 {
+	padding: 20px;
+	margin-left: 20px; 
+	border: 1px solid #999;
+	text-align: center;
+}
