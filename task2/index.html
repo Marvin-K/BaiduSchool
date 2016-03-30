@@ -16,7 +16,7 @@
 			</ul>
 	</div>
 	<div class="articles">
-		<div class="arti-1">
+		<div class="main_text">
 			<h2>文章一级标题</h2>
 			<h3>文章二级标题</h3>
 			<p class="author">King  2016.03</p>生辰出乎意料地大受好评之后，开始考虑下一步的延伸，拓展生命计时器的产品边界。想来想去，只想到“心愿”。做心愿系统向来有两个疑难问题，一是用户为什么要在你这里创建心愿？二是大多数人如果留下一条“我想找个男/女盆友”“愿宝宝一生平安”这种大路货的心愿，产品既没有生命力，也不符合我的审美。</p>
@@ -28,15 +28,17 @@
 				<li>列表项目三</li>
 			</ul>
 		</div>
-		<div class="arti-2">
+		<div class="main_text">
 			<h2>图片</h2>
-			<ol class="pic-2">精美图片<br/><img src="img/pic-1.jpg"></ol>
-			<ol class="pic-2">精美图片<br/><img src="img/pic-1.jpg"></ol>
-			<ol class="pic-2">精美图片<br/><img src="img/pic-1.jpg"></ol>
-			<ol class="pic-2">精美图片<br/><img src="img/pic-1.jpg"></ol>
-			<ol class="pic-2">精美图片<br/><img src="img/pic-1.jpg"></ol>
+			<ul class="ul-1">
+				<li class="ol-2">精美图片<br/><img class="pic-2" src="img/pic-1.jpg"></li>
+				<li class="ol-2">精美图片<br/><img class="pic-2" src="img/pic-1.jpg"></li>
+				<li class="ol-2">精美图片<br/><img class="pic-2" src="img/pic-1.jpg"></li>
+				<li class="ol-2">精美图片<br/><img class="pic-2" src="img/pic-1.jpg"></li>
+				<li class="ol-2">精美图片<br/><img class="pic-2" src="img/pic-1.jpg"></li>
+			</ul>
 		</div>
-		<div class="arti-3">
+		<div class="main_text">
 			<h2>最后一篇文章一级标题</h2>
 			<h3 >文章二级标题</h3>
 			<p class="author">Queen 2016.03</p>
@@ -47,84 +49,92 @@
 			</ol>
 			<p>下面是一个表格，表格的border=“1”</p>
 			<table border="1">
+				<header>
+					<tr>
+						<th>表头1</th>
+						<th>表头2</th>
+						<th>表头3</th>
+					</tr>
+				</header>
 				<tr>
-					<th>表头1</th>
-					<th>表头2</th>
-					<th>表头3</th>
+					<td>表内容单元格1-1</td>
+					<td>表内容单元格1-2</td>
+					<td><a href="">操作1-3</a></td>
 				</tr>
 				<tr>
-					<td>1-1</td>
-					<td>1-2</td>
-					<td><a href="">1-3</a></td>
+					<td>表内容单元格2-1</td>
+					<td>表内容单元格2-2</td>
+					<td><a href="">操作2-3</a></td>
 				</tr>
 				<tr>
-					<td>2-1</td>
-					<td>2-2</td>
-					<td><a href="">2-3</a></td>
+					<td>表内容单元格3-1</td>
+					<td>表内容单元格3-2</td>
+					<td><a href="">操作3-3</a></td>
 				</tr>
 				<tr>
-					<td>3-1</td>
-					<td>3-2</td>
-					<td><a href="">3-3</a></td>
+					<td>表内容单元格4-1</td>
+					<td>表内容单元格4-2</td>
+					<td><a href="">操作4-3</a></td>
 				</tr>
-				<tr>
-					<td>4-1</td>
-					<td>4-2</td>
-					<td><a href="">4-3</a></td>
-				</tr>
-				<tr>
-					<td>Total</td>
-					<td colspan="2">1000</td>
-				</tr>
+				<tfoot>
+					<tr>
+						<td>Total</td>
+						<td colspan="2">1000</td>
+					</tr>					
+				</tfoot>
 			</table>
 		</div>
 	</div>
 	<div class="sidebar">
 		<h2>侧栏标题</h2>
 		<h3>侧栏注册窗口标题</h3>
-		<form>
-			<label>请输入邮箱地址：</label>
-			<input type="text" placeholder="example@163.com" name="mail"></input>
-		</form>
-		<!-- <p>请输入邮箱地址：</p>
-		<input type="text" name="mail" value="example@163.com" onfocus="if (value=='example@163.com') {value=''}" onblur="if (value=='') {value='example@163.com'}"> -->
-		<p>邮箱地址请按格式填写</p>
-		
-		<form>
-			</input>
-			<p>请输入密码：</p>
-			<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
-			</input>
-			<p>请再次输入密码：</p>
-			<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
-			</input>
-		</form>
-		<form>
-		<p>性别：</p>
-		男<input type="radio" checked="checked" name="Sex" value="male"></input>
-		女<input type="radio" name="Sex" value="female"></input>
-		</form>
-		<form>
-		<p>城市：</p>
-		<select name="cities">
-			<option>北京</option>
-			<option>南京</option>
-			<option>杭州</option>
-			<option>苏州</option>
-		</select>
-		</form>
-		<form>
-		<br/>爱好：
-		<input type="checkbox" name="sport">运动</input>
-		<input type="checkbox" name="art">艺术</input>
-		<input type="checkbox" name="science">科学</input>
-		</form>
-		<form>
-		<br/>个人描述：
-		<textarea rows="3">多行输入框，请输入您的个人描述
-		</textarea>
-		<input type="submit" value="确认提交"></input>
-		</form>
+		<div class="form-info">
+			<form>
+				<label>请输入邮箱地址：</label>
+				<input type="text" placeholder="example@163.com" name="mail"></input>
+			</form>
+			<!-- <p>请输入邮箱地址：</p>
+			<input type="text" name="mail" value="example@163.com" onfocus="if (value=='example@163.com') {value=''}" onblur="if (value=='') {value='example@163.com'}"> -->
+			<p>邮箱地址请按格式填写</p>
+			
+			<form>
+				</input>
+				<p>请输入密码：</p>
+				<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
+				</input>
+				<p>请再次输入密码：</p>
+				<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
+				</input>
+			</form>
+			<form>
+			<p>性别：</p>
+			男<input type="radio" checked="checked" name="Sex" value="male"></input>
+			女<input type="radio" name="Sex" value="female"></input>
+			</form>
+			<form>
+			<p>城市：</p>
+			<select name="cities">
+				<option>北京</option>
+				<option>南京</option>
+				<option>杭州</option>
+				<option>苏州</option>
+			</select>
+			</form>
+			<form>
+			<br/>爱好：
+			<input type="checkbox" name="sport">运动</input>
+			<input type="checkbox" name="art">艺术</input>
+			<input type="checkbox" name="science">科学</input>
+			</form>
+			<form>
+			<br/>个人描述：
+			<textarea rows="3">多行输入框，请输入您的个人描述
+			</textarea>
+			<input type="submit" value="确认提交"></input>
+			</form>
+		</div>
+	</div>
+	<div class="bottom">
 		<p>版权所有&copy</p>
 	</div>
 	</body>

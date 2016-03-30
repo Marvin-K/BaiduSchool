@@ -3,7 +3,7 @@ body,html{
 	padding: 0px;
 	background-color: #eee;
 }
-.top {
+.top, .bottom {
 	width: auto;
 	height: 70px;
 	background-color: #333;
@@ -27,13 +27,30 @@ li.nav-li a:link{
 li.nav-li a:hover{
 	color: #aaa;
 }
-.arti-1,.arti-2,.arti-3,.sidebar {
+.main_text,.sidebar {
 	font-family: "Microsoft YaHei";
 	margin: 20px;
 	padding: 30px 20px 30px 20px;
 	background-color: #fff;
+	border-style: outset;
 }
-
+.sidebar h2{
+	border-left: 4px solid #ccc;
+	padding-left: 8px;
+}
+.main_text th {
+	background-color: #333;
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+}
+.main_text table {
+	width: 100%;
+	border-collapse: collapse; 	
+}
+.main_text table a {
+	text-decoration: none;
+}
 .navigation {
 	float: right;
 	height: 20px;
@@ -46,17 +63,42 @@ li.nav-li a:hover{
 	font-size: smaller;
 	color: #aaa;
 }
+
+ul.ul-1,ul.ul-2 {
+	list-style-type: none;
+}
+.ol-2 {
+	border: 1px solid #999;
+	width: 110px;
+	/*height: 140px;*/
+	padding: 10px;
+	margin: 20px 10px 20px 50px; 
+	text-align: center;
+}
+.pic-2 {
+	width: 100px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.form-info {
+
+}
+
+.bottom {
+	font-size: 20px;
+	text-align: center;
+	color:#eee;
+	margin: auto;
+	line-height: 3.5;
+}
+
 h3 {
 	font-size: medium;
 	color: #bbb;
 }
-ul.ul-1 {
-	list-style-type: none;
+tfoot {
+	border: none;
+	background-color: #eee;
 }
 
-ol.pic-2 {
-	padding: 20px;
-	margin-left: 20px; 
-	border: 1px solid #999;
-	text-align: center;
-}
