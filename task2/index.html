@@ -89,49 +89,88 @@
 		<h2>侧栏标题</h2>
 		<h3>侧栏注册窗口标题</h3>
 		<div class="form-info">
-			<form>
-				<label>请输入邮箱地址：</label>
-				<input type="text" placeholder="example@163.com" name="mail"></input>
-			</form>
-			<!-- <p>请输入邮箱地址：</p>
-			<input type="text" name="mail" value="example@163.com" onfocus="if (value=='example@163.com') {value=''}" onblur="if (value=='') {value='example@163.com'}"> -->
-			<p>邮箱地址请按格式填写</p>
-			
-			<form>
-				</input>
-				<p>请输入密码：</p>
-				<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
-				</input>
-				<p>请再次输入密码：</p>
-				<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
-				</input>
-			</form>
-			<form>
-			<p>性别：</p>
-			男<input type="radio" checked="checked" name="Sex" value="male"></input>
-			女<input type="radio" name="Sex" value="female"></input>
-			</form>
-			<form>
-			<p>城市：</p>
-			<select name="cities">
-				<option>北京</option>
-				<option>南京</option>
-				<option>杭州</option>
-				<option>苏州</option>
-			</select>
-			</form>
-			<form>
-			<br/>爱好：
-			<input type="checkbox" name="sport">运动</input>
-			<input type="checkbox" name="art">艺术</input>
-			<input type="checkbox" name="science">科学</input>
-			</form>
-			<form>
-			<br/>个人描述：
-			<textarea rows="3">多行输入框，请输入您的个人描述
-			</textarea>
-			<input type="submit" value="确认提交"></input>
-			</form>
+		<form>
+			<div class="text-field">
+				<div class="form-group">
+					<div class="group-name">
+					<label> 请输入邮箱地址：</label>
+					</div>
+					<div class="group-value">
+					<input type="text" placeholder="example@163.com" name="mail"></input>
+					</div>
+				</div>
+			</div>
+			<div class="text-field">
+				<div class="form-group">									
+					<div class="group-name">
+						<label>请输入密码：</label>						
+					</div>
+					<div class="group-value">
+						<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
+						</input>
+					</div>
+				</div>
+				<div class="form-group">	
+					<div class="group-name">
+						<label>请再次输入密码：</label>
+					</div>
+					<div class="group-value">
+						<input type="password" placeholder="密码为6-15位英文字母" name="mpassword">
+						</input>
+					</div>
+				</div>
+			</div>
+			<div class="text-field">
+				<div class="form-group">
+					<div class="group-name">
+						<lable>性别：</lable>						
+					</div>
+					<div class="group-value">
+						<input type="radio" checked="checked" name="Sex" value="male">男</input>
+						<input type="radio" name="Sex" value="female">女</input>
+					</div>
+				</div>
+			</div>
+			<div class="text-field">	
+				<div class="form-group">
+					<div class="group-name">
+						<lable>城市：</lable>
+					</div>
+					<div class="group-value">
+						<select name="cities">
+							<option>北京</option>
+							<option>南京</option>
+							<option>杭州</option>
+							<option>苏州</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="text-field">
+				<div class="form-group">
+					<div class="group-name">
+						<br/>爱好：
+					</div>
+					<div class="group-value">
+						<input type="checkbox" name="sport">运动</input>
+						<input type="checkbox" name="art">艺术</input>
+						<input type="checkbox" name="science">科学</input>
+					</div>
+				</div>
+			</div>
+			<div class="text-field">
+				<div class="form-group">
+					<div class="group-name">
+						<br/>个人描述：
+					</div>
+					<div class="group-name">
+						<textarea rows="3" cols="30">多行输入框，请输入您的个人描述
+						</textarea>
+					</div>
+				</div>
+			</div>
+			<input class="submit_field" type="submit" value="确认提交"></input>
+		</form>
 		</div>
 	</div>
 	<div class="bottom">
