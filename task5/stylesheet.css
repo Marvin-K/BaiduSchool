@@ -32,11 +32,11 @@ li.nav-li {
 	margin: 0 30px 0 0px;
 
 }
-li.nav-li a:link{
+li.nav-li a:link {
 	color: #fff;
 	text-decoration:none; 
 }
-li.nav-li a:hover{
+li.nav-li a:hover {
 	color: #aaa;
 }
 .main_text,.sidebar {
