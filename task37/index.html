@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-37</title>
+	<link rel="stylesheet" type="text/css" href="css/task_37.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header class="head">
+		<ul>
+			<li class="signin-link" id="loginlink">
+				<a href="">登录</a>
+			</li>
+		</ul>
+	</header>
+	<div class="main-text">
+    <p>点击半透明遮罩或浮出层顶部关闭按钮,关闭浮出层</p>
+    <p>点击页面深绿色头部登录按钮,显示浮出层</p>
+    <p>拖拽浮出层顶部,可使其移动</p>
+    <p>拖拽浮出层右边框或下边框,可改变其大小</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+    <p>FAQ What is dummy coding? </p>
+    <p>Dummy coding provides one way of using categorical predictor variables in various kinds of estimation models (see also effect coding)</p>
+	</div>
+
+	<div class="mask" id="mask"></div>		
+		<div class="sign" id="loginBox">
+	      <div class="section">
+	        <form id="form">
+	          <div class="form-item">
+	            <h2>欢迎登录</h2></div>
+	          <div class="form-item">
+	            <i class="icon-user-md icon"></i>
+	            <input v-model="user.name" v-on:click="input_focus()" type="text" class="form-input" name="name" placeholder="用户姓名">
+	            <div class="bot-bar"></div>
+	          </div>
+	          <div class="form-item">
+	            <i class="icon-mobile-phone icon"></i>
+	            <input v-model="user.phone" v-on:click="input_focus()" type="text" class="form-input" name="phone" placeholder="电话号码">
+	            <div class="bot-bar"></div>
+	          </div>
+	          <div class="form-item">
+	            <i class="icon-envelope icon"></i>
+	            <input v-model="user.email" v-on:click="input_focus()" type="text" class="form-input" name="email" placeholder="电子邮箱">
+	            <div class="bot-bar"></div>
+	          </div>
+	          <div class="form-item">
+	            <div v-on:click="m_submit(user)" class="form-submit" data-txt="Login">Login</div>
+	          </div>
+			  <div class="form-item">
+	          <div v-on:click="m_submit(user)" class="form-submit" id="closeBtn" data-txt="Close">Close</div>
+			  </div>
+	        </form>
+	      </div>
+	    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  
+  <body>
+    <div class="sign">
+      <div class="section">
+        <form id="form">
+          <div class="form-item">
+            <h2>欢迎登录</h2></div>
+          <div class="form-item">
+            <i class="icon-user-md icon"></i>
+            <input v-model="user.name" v-on:click="input_focus()" type="text" class="form-input" name="name" placeholder="用户姓名">
+            <div class="bot-bar"></div>
+          </div>
+          <div class="form-item">
+            <i class="icon-mobile-phone icon"></i>
+            <input v-model="user.phone" v-on:click="input_focus()" type="text" class="form-input" name="phone" placeholder="电话号码">
+            <div class="bot-bar"></div>
+          </div>
+          <div class="form-item">
+            <i class="icon-envelope icon"></i>
+            <input v-model="user.email" v-on:click="input_focus()" type="text" class="form-input" name="email" placeholder="电子邮箱">
+            <div class="bot-bar"></div>
+          </div>
+          <div class="form-item">
+            <div v-on:click="m_submit(user)" class="form-submit" data-txt="Login">Login</div></div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+</html>
